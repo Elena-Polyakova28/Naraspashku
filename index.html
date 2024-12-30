@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НАРАСПАШКУ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="slider.js"></script>
+</head>
+<body>
+
+    <header id="home">
+        <div class="logo">
+            <h1><img src="img/logo.svg" class="logo-img" alt="логотип"></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-li f-bold">ГЛАВНАЯ</a></li>
+                <li><a href="#news" class="nav-li f-bold">НОВОСТИ</a></li>
+                <li><a href="#shop" class="nav-li f-bold">КАТАЛОГ</a></li>
+                <li><a href="#gallary" class="nav-li f-bold">МЕРЧ</a></li>
+                <li><a href="#cont" class="nav-li f-bold">КОНТАКТЫ</a></li>
+            </ul>
+        </nav>
+        <section class="header">
+            <img src="img/star.svg" alt="звездочка">
+            <span class="header-span f-bold">Зажги&nbspсвою&nbspИскру<br>с магазином<br>Нараспашку</span>
+            <img src="img/character.png" class="character" alt="персонаж">
+        </section>
+    </header>
+
+<main>
+
+    <section class="about">
+        <div class="space"></div>
+        <article class="about-text">
+            <h4 class="f-bold orange">НАРАСПАШКУ - МАГАЗИН<br>ИСКР ДЛЯ ЗАПУТАВШИХСЯ<br>ЛЮДЕЙ</h4>
+            <span class="f-light about-span orange">
+                    Магазин Искр «Нараспашку» - 
+                <br>это&nbspуникальное&nbspпространство,&nbspгде&nbspлюди
+                <br>могут приобрести вдохновение, идеи
+                <br>и мотивацию для личностного роста
+                <br>и самовыражения. Это место,
+                <br>где каждый может найти свою
+                <br>уникальную «Искру» - что-то,
+                <br>что зажжет в них интерес и желание
+                <br>действовать.
+            </span>
+        </article>
+    </section>
+
+    <section class="shop">
+        <h2 class="f-bold" id="shop">КАТАЛОГ</h2>
+        <div class="products">
+        <div class="product">
+            <img src="img/spark-1.svg" class="ani" alt="единичная искра">
+            <span class="f-bold about-product">Единичная<br>искра</span>
+        </div>
+        <div class="product">
+            <img src="img/spark-2.svg" class="ani" alt="базовый набор">
+            <span class="f-bold about-product">Базовый<br>набор</span>
+        </div>
+        <div class="product">
+            <img src="img/spark-3.svg" class="ani" alt="расширенный набор">
+            <span class="f-bold about-product">Расширенный<br>набор</span>
+        </div>
+        </div>
+    </section>
+
+    <section class="gallary">
+        <h2 class="f-bold orange gallary-h" id="gallary">МЕРЧ</h2>
+        <div class="slider">
+            <div class="fade"><img class="img-s" src="img/slide-1.png" alt="блокнот"></div>
+            <div class="fade"><img class="img-s" src="img/slide-2.png" alt="яркий плакат"></div>
+            <div class="fade"><img class="img-s" src="img/slide-3.png" alt="2 плаката"></div>
+            <div class="fade"><img class="img-s" src="img/slide-4.png" alt="футболки"></div>
+            <div class="fade"><img class="img-s" src="img/slide-5.png" alt="флаг"></div>
+            <div class="fade"><img class="img-s" src="img/slide-6.png" alt="шопер и стаканчик"></div>
+            <button class="prev" onclick="plusSlides(-1)"><img src="img/prev.svg" alt="кнопка"></button>
+            <button class="next" onclick="plusSlides(1)"><img src="img/next.svg" alt="кнопка"></button>
+        </div>
+    </section>
+
+    <section class="news-1">
+        <article class="news-1-text">
+            <h2 class="news-h f-bold" id="news">НОВОСТИ</h2>
+            <span class="f-bold news-1-span">
+                    Совсем&nbspскоро&nbspпод&nbspруководством
+                <br>нашего&nbspмагазина&nbspпройдет 
+                <br>фестиваль&nbspИскр,&nbspгде&nbspу&nbspвас&nbspбудет 
+                <br>возможность&nbspвыиграть&nbspбазовый 
+                <br>набор&nbspИмкр&nbspсовершенно 
+                <br>бесплатно!
+                <br>Только&nbsp28&nbspмая,&nbspне&nbspпропустите!
+            </span>
+        </article>
+        <img class="poster-1" src="./img/poster-1.png" alt="плакат о фестивале искр">
+    </section>
+    <section class="news-2">
+        <span class="f-bold orange news-2-span">
+                7 января в магазине 
+            <br>Нараспашку пройдет тест-драйв 
+            <br>Искр, где вы сможете 
+            <br>опробовать наши новые Искры 
+            <br>и узнать больше об их действии 
+            <br>и разработке, не пропустите!
+        </span>
+        <img class="mini-characters ani" src="img/character-1.svg" alt="чудик фиолетовый">
+        <img class="mini-characters ani" src="img/character-2.svg" alt="чудик оранжевый">
+    </section>
+    <section class="news-3">
+        <span class="f-bold news-3-span">
+                Уже совсем скоро откроется
+            <br>музей Искр, посвященный
+            <br>магазину Нараспашку,
+            <br>где вы сможете познакомиться
+            <br>и историей создания первой 
+            <br>Искры и увидеть прототипы
+            <br>нашей нынешней продукции!
+            <br>Только 17 марта, в день
+            <br>открытия, билет со скидкой
+            <br>-70%, не пропустите!
+        </span>
+        <img class="poster-2" src="img/poster-2.png" alt="плакат о музее искр">
+    </section>
+
+    <footer>
+        <img src="img/footer-img.svg" class="footer-img" alt="самолетик">
+        <span class="footer-span f-bold">
+                Хотите&nbspпервым&nbspузнавать
+            <br>о&nbspскидках&nbspи&nbspконкурсах
+            <br>в&nbspрекламной&nbspрассылке
+            <br>от&nbspНараспашку?
+        </span>
+        <article class="contacts">
+            <h3 class="f-bold" id="cont">НАШИ КОНТАКТЫ</h3>
+            <a href="tel:+79109999999" class="f-bold contact">8 (910) 999-99-99</a>
+            <a href="mailto:info@naraspashku.ru" class="f-bold contact">info@naraspashku.ru</a>
+            <address class="f-bold contact">г. Нижний Новгород,<br>ул. Искринка, 7</address>
+            <a href="t.me/na_raspashku" class="f-bold contact">t.me/na_raspashku</a>
+        </article>
+    </footer>
+</main>
